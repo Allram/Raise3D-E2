@@ -38,5 +38,12 @@ If you want to use the Overlay.svg to get a better "view" of the Printbed, you c
 Prusaslicer -> Printer Settings -> General -> Size and coordinates -> Bed shape -> Texture -> Add the Overlay.svg there
 You will need to do this for all the Printer profiles.
 
+**View of buildplate with Overlay.svg:**
+![Screenshot](Overlay.png)
+
+
+**View of buildplate without Overlay.svg:**
+![Screenshot](Without_Overlay.png)
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
