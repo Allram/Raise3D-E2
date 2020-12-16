@@ -47,3 +47,15 @@ You will need to do this for all the Printer profiles.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+
+## Changelog
+V1.0 0.6mm profiles are pretty much done.
+Some work remains on Dual extrusion print profile as some users still report crash in X and U axis while printing some objects.
+
+Profiles are tuned in for 0.6mm nozzles.
+** Added auto-select on the Print profiles dependend on Nozzle type.
+** Reworked Print profile names
+** Reworked Filament profile names
+
+Will make a try at 0.4mm nozzles next week if i get the time.
