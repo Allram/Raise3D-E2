@@ -1,6 +1,20 @@
 # Raise3D-E2
 Profile for Raise3D E2 printer for use in PrusaSlicer 2.3.0-Beta3 and newer.
 
+### Profile status
+As of now, the profiles are in working state, they don't print pretty, but IDEX and different modes are working:
+
+##### What works:
+* Left printhead mode
+* Right printhead mode
+* Mirror mode
+* Duplicate mode
+
+##### What sort of works:
+* Dual extrusion, some users have had mixed experience with this, need to check.
+
+##### What is not working:
+* Full mesh bed leveling around the object, like Ideamaker. As of now it does mesh bed level as you have set on the Printer. Either 3x3 or 6x9.
 
 
 ## Importing the profile
