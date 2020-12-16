@@ -39,11 +39,11 @@ Prusaslicer -> Printer Settings -> General -> Size and coordinates -> Bed shape 
 You will need to do this for all the Printer profiles.
 
 **View of buildplate with Overlay.svg:**
-![Screenshot](Overlay.png)
+![Screenshot](Overlay.PNG)
 
 
 **View of buildplate without Overlay.svg:**
-![Screenshot](Without_Overlay.png)
+![Screenshot](Without_Overlay.PNG)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
