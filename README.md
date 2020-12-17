@@ -47,6 +47,15 @@ You will need to do this for all the Printer profiles.
 ![Screenshot](Without_Overlay.PNG)
 
 # Changelog
+
+## [v1.1.1] - 2020-12-17
+### Notes:
+
+Added RaiseTouch specific Gcodes
+* End of Start G-code: M1001
+* Start of End G-code: M1002
+* Pause/Colorchange G-code: M2000
+
 ## [v1.1] - 2020-12-17
 ### Notes:
 
