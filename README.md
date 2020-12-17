@@ -50,6 +50,22 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 
 # Changelog
+## [1.1] - 2020-12-17
+### Notes:
+
+** Edit compatible printers to accept every PRINTER_MODEL_E2 independendent of nozzle size
+** Edit compatible print profiles to accept every PRINTER_MODEL_E2 and choose appropriate profiles depending of nozzle size
+** Changed default filament color to Orange
+** Optimized Filament profiles
+** Add WOOD filament profile
+** Changed start G-code with Intro line Z0.35 instead of Z0.2 for increased throughput of filament at intro line.
+** Added Z5 before move to intro line, to prevent nozzle scraping heatbed while moving
+
+Still not working correctly:
+Dual extrusion with large parts, small parts seems to work ok now.
+
+
+
 ## [1.0] - 2020-12-16
 ### Notes
 0.6mm profiles are pretty much done.
