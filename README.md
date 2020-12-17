@@ -50,30 +50,30 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 
 # Changelog
-## [1.1] - 2020-12-17
+## [v1.1] - 2020-12-17
 ### Notes:
 
-** Edit compatible printers to accept every PRINTER_MODEL_E2 independendent of nozzle size
-** Edit compatible print profiles to accept every PRINTER_MODEL_E2 and choose appropriate profiles depending of nozzle size
-** Changed default filament color to Orange
-** Optimized Filament profiles
-** Add WOOD filament profile
-** Changed start G-code with Intro line Z0.35 instead of Z0.2 for increased throughput of filament at intro line.
-** Added Z5 before move to intro line, to prevent nozzle scraping heatbed while moving
+* Edit compatible printers to accept every PRINTER_MODEL_E2 independendent of nozzle size
+* Edit compatible print profiles to accept every PRINTER_MODEL_E2 and choose appropriate profiles depending of nozzle size
+* Changed default filament color to Orange
+* Optimized Filament profiles
+* Add WOOD filament profile
+* Changed start G-code with Intro line Z0.35 instead of Z0.2 for increased throughput of filament at intro line.
+* Added Z5 before move to intro line, to prevent nozzle scraping heatbed while moving
 
 Still not working correctly:
-Dual extrusion with large parts, small parts seems to work ok now.
+* Dual extrusion with large parts, small parts seems to work ok now.
 
 
 
-## [1.0] - 2020-12-16
+## [v1.0] - 2020-12-16
 ### Notes
 0.6mm profiles are pretty much done.
 Some work remains on Dual extrusion print profile as some users still report crash in X and U axis while printing some objects.
 
 Profiles are tuned in for 0.6mm nozzles.
-** Added auto-select on the Print profiles dependend on Nozzle type.
-** Reworked Print profile names
-** Reworked Filament profile names
+* Added auto-select on the Print profiles dependend on Nozzle type.
+* Reworked Print profile names
+* Reworked Filament profile names
 
 Will make a try at 0.4mm nozzles next week if i get the time.
