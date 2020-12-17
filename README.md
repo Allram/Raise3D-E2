@@ -46,10 +46,6 @@ You will need to do this for all the Printer profiles.
 **View of buildplate without Overlay.svg:**
 ![Screenshot](Without_Overlay.PNG)
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-
 # Changelog
 ## [v1.1] - 2020-12-17
 ### Notes:
@@ -78,3 +74,7 @@ Profiles are tuned in for 0.6mm nozzles.
 * Reworked Filament profile names
 
 Will make a try at 0.4mm nozzles next week if i get the time.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
