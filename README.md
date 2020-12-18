@@ -12,7 +12,7 @@ IDEX and different modes are working
 * Duplicate mode
 
 ##### What sort of works:
-~~ * Dual extrusion, some users have had mixed experience with this. small parts work, but large parts seems to create a crash between X and U axis. ~~
+~~* Dual extrusion, some users have had mixed experience with this. small parts work, but large parts seems to create a crash between X and U axis. ~~
 
 ##### What is not working:
 * Full mesh bed leveling around the object, like Ideamaker. As of now it does mesh bed level as you have set on the Printer. Either 3x3 or 6x9.
