@@ -12,7 +12,7 @@ IDEX and different modes are working
 * Duplicate mode
 
 ##### What sort of works:
-* Dual extrusion, some users have had mixed experience with this. small parts work, but large parts seems to create a crash between X and U axis.
+~~ * Dual extrusion, some users have had mixed experience with this. small parts work, but large parts seems to create a crash between X and U axis. ~~
 
 ##### What is not working:
 * Full mesh bed leveling around the object, like Ideamaker. As of now it does mesh bed level as you have set on the Printer. Either 3x3 or 6x9.
@@ -48,6 +48,13 @@ You will need to do this for all the Printer profiles.
 
 # Changelog
 
+## [v1.2] - 2020-12-18
+### Notes:
+
+* Dual extrusion is working!
+* Optimized start and end G-codes
+
+
 ## [v1.1.1] - 2020-12-17
 ### Notes:
 
@@ -55,6 +62,7 @@ Added RaiseTouch specific Gcodes
 * End of Start G-code: M1001
 * Start of End G-code: M1002
 * Pause/Colorchange G-code: M2000
+
 
 ## [v1.1] - 2020-12-17
 ### Notes:
