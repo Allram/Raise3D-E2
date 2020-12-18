@@ -10,6 +10,7 @@ IDEX and different modes are working
 * Right printhead mode
 * Mirror mode
 * Duplicate mode
+* Dual extrusion mode
 
 ##### What sort of works:
 * ~~Dual extrusion, some users have had mixed experience with this. small parts work, but large parts seems to create a crash between X and U axis.~~
