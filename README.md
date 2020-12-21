@@ -49,6 +49,15 @@ You will need to do this for all the Printer profiles.
 
 # Changelog
 
+## [v1.3] - 2020-12-21
+### Notes:
+
+* Adjusted Min/Max layer height according to nozzle size (for better variable layerheight procedure)
+* Tuned support settings for 0.6mm nozzle
+* Added filament_weight on output filename
+* Tuned Ironing for 0.6mm nozzle
+* Tuned retraction for dual extrusion prints
+
 ## [v1.2] - 2020-12-18
 ### Notes:
 
