@@ -49,6 +49,19 @@ You will need to do this for all the Printer profiles.
 
 # Changelog
 
+## [v1.4] - 2020-12-27
+### Notes:
+
+* Added max_volumetric_speed based on filament type
+* Added 0.2mm Z-hop
+* Added Flex profile
+* Added Extruder max_volumetric_speed
+* Tuned retraction to 0.1mm (from 0.5mm)
+* Added feed, jerk and acceleration speeds to get time_estimate more reliable.
+* Removed silent_mode as that is not supported on this printer.
+* Added 0.4mm nozzle printer-profiles (print profiles yet to be added)
+
+
 ## [v1.3] - 2020-12-21
 ### Notes:
 
@@ -57,6 +70,7 @@ You will need to do this for all the Printer profiles.
 * Added filament_weight on output filename
 * Tuned Ironing for 0.6mm nozzle
 * Tuned retraction for dual extrusion prints
+
 
 ## [v1.2] - 2020-12-18
 ### Notes:
@@ -89,7 +103,6 @@ Still not working correctly:
 * Dual extrusion with large parts, small parts seems to work ok now.
 
 
-
 ## [v1.0] - 2020-12-16
 ### Notes
 0.6mm profiles are pretty much done.
@@ -101,6 +114,7 @@ Profiles are tuned in for 0.6mm nozzles.
 * Reworked Filament profile names
 
 Will make a try at 0.4mm nozzles next week if i get the time.
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
