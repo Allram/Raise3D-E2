@@ -49,6 +49,13 @@ You will need to do this for all the Printer profiles.
 
 # Changelog
 
+## [v2.0] - 2021-01-08
+### Notes:
+
+* Tuned start/end G-codes
+* Added Pressure Advance (M572) values for filament profiles
+* Added 0.4mm nozzle profiles
+
 ## [v1.4] - 2020-12-27
 ### Notes:
 
