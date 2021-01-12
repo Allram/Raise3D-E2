@@ -17,6 +17,7 @@ IDEX and different modes are working
 
 ##### What is not working:
 * Full mesh bed leveling around the object, like Ideamaker. As of now it does mesh bed level as you have set on the Printer. Either 3x3 or 6x9.
+EDIT: Seems like the only option as of now is to run a PostProcess script to generate a "Bounding box" to probe around print area: https://forum.duet3d.com/topic/15302/cura-script-to-automatically-probe-only-printed-area/57
 
 
 ## Importing the profile
