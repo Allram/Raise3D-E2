@@ -50,6 +50,11 @@ You will need to do this for all the Printer profiles.
 
 # Changelog
 
+## [v2.1] - 2021-01-19
+### Notes:
+
+* Moved M605 to start of G-code for the printer to accept it each time
+
 ## [v2.0] - 2021-01-08
 ### Notes:
 
