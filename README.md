@@ -50,6 +50,20 @@ You will need to do this for all the Printer profiles.
 
 # Changelog
 
+## [v2.2] - 2021-02-16
+### Notes:
+
+* Tuned 0.4n profiles
+* Increased print speed
+* Added better break-away supportsettings
+* Fine-tuned retraction
+* Fine-tuned bridging settings
+* Adjusted Printer acceleration speeds for better time-estimate
+* Removed Flow rate in Start/End G-code
+* Tuned PLA profile for better cooling
+
+
+
 ## [v2.1] - 2021-01-19
 ### Notes:
 
