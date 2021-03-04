@@ -50,6 +50,30 @@ You will need to do this for all the Printer profiles.
 
 # Changelog
 
+## [v3] - 2021-03-04
+### Notes:
+
+* Added nozzle diameter check on filament profiles
+* Added 0.6n filament profiles
+* 0.6n: Removed Deretract speed (similiar as Retract speed)
+* 0.6n: Removed M221 flow rate in Start/End G-code (respect Filament multiplier instead)
+* 0.6n: Adjusted retraction from 0.1mm to 0.6
+* 0.6n: Added Lift Z 0.2mm
+* 0.6n: Adjusted retract when toolchange from 2mm to 1mm
+* 0.6n: Removed retract before travel 
+* 0.6n: Tuned Bridge flow ratio (from 0.95 to 1.4)
+* 0.6n: Adjusted bridgespeed from 25mm/s to 15mm/s
+* 0.6n: Activated option 'External perimeters first'
+* 0.6n: Deactivated option 'Ensure vertical shell thickness'
+* 0.6n: Adjusted Gap fill speed from 50mm/s to 25mm/s due to printer wobbling
+* 0.6n: Adjusted infill overlap from 30% to 0%
+* 0.6n: Removed max volumetric speed values
+* 0.6n: Adjusted seam position to aligned
+* 0.6n: Tuned support settings
+* 0.6n: Adjusted printspeeds
+
+
+
 ## [v2.2] - 2021-02-16
 ### Notes:
 
