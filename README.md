@@ -2,8 +2,18 @@
 Profile for Raise3D E2 printer for use in PrusaSlicer 2.3.0-Beta3 and newer.
 
 ### Profile status
-0.6mm profiles are tuned in.
+0.4mm profiles are tuned in.  
+0.6mm profiles are tuned in.  
 IDEX and different modes are working
+
+#### Filament profiles:
+* PLA
+* PETG
+* WOOD
+* ABS
+* FLEX
+* PVA
+
 
 ##### What works:
 * Left printhead mode
@@ -17,7 +27,7 @@ IDEX and different modes are working
 
 ##### What is not working:
 * Full mesh bed leveling around the object, like Ideamaker. As of now it does mesh bed level as you have set on the Printer. Either 3x3 or 6x9.
-EDIT: Seems like the only option as of now is to run a PostProcess script to generate a "Bounding box" to probe around print area: https://forum.duet3d.com/topic/15302/cura-script-to-automatically-probe-only-printed-area/57
+Seems like the only option as of now is to run a PostProcess script to generate a "Bounding box" to probe around print area: https://forum.duet3d.com/topic/15302/cura-script-to-automatically-probe-only-printed-area/57
 
 
 ## Importing the profile
