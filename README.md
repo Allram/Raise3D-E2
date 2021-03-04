@@ -2,8 +2,12 @@
 Profile for Raise3D E2 printer for use in PrusaSlicer 2.3.0-Beta3 and newer.
 
 ### Profile status
-0.6mm profiles are tuned in.
-IDEX and different modes are working
+0.4mm profiles are tuned in
+0.6mm profiles are tuned in
+IDEX and different modes are working:
+- Mirror
+- Duplicate
+- Dual print
 
 ##### What works:
 * Left printhead mode
@@ -50,7 +54,7 @@ You will need to do this for all the Printer profiles.
 
 # Changelog
 
-## [v3] - 2021-03-04
+## [v3.0] - 2021-03-04
 ### Notes:
 
 * Added nozzle diameter check on filament profiles
